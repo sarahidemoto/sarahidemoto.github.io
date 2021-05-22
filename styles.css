@@ -8,10 +8,7 @@ body{
     font-family: Poppins, sans-serif;
     padding:0;
 }
-.construction{
-    text-align: right;
-    padding-right:50px;
-}
+
 .name{
     padding-top: 50px;
     text-align: center;
@@ -32,11 +29,40 @@ p{
     font-size: 300px;
     font-weight:800;
     margin-top: 75px;
-    margin-left: 50px;
+    margin-left: 0px;
     background-color: rgba(0, 0, 0, 0);
     border-style:none;
+    float:left;
 }
 
+.title2{
+    float:left;
+    margin:0;
+    padding:0;
+    font-family: Poppins, sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+    color : white;
+    font-size: 300px;
+    font-weight:800;
+    margin-top: 75px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.title3{
+    margin-left:0px;
+}
+.titleH{
+    margin-left: 50px;
+}
+.construction{
+    clear:both;
+    text-align: right;
+    padding-right:50px;
+}
 
 /*.title:hover{
     -webkit-text-stroke: 2px #0077AA;
